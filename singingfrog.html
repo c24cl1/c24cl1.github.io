@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+<style type="text/css">
+	/*#froggy{*/
+		/*background-image: url(file:///Users/student/Desktop/repositories/c24cl1.github.io/froggy.jpg);*/
+		/*height: 1000px;*/
+		/*width: 1000px;*/
+		/*background-repeat: no-repeat;*/
+		/*position: fixed;*/
+		/*right:50px;*/
+
+	/*}*/
+
+
+
+
+
+</style>
+
+<a href="#" onmouseover="mouseOver()" onmouseout="mouseOut()">Mouse over to change image</a>
+
+</head>
+<body>
+<div id="froggy">
+<img src="froggy.jpg">
+</div>
+
+<div id="froggy2">
+<img src="froggy2.jpg">
+</div>
+
+
+<script type="text/javascript">
+
+
+function mouseOver() {
+    document.getElementById("froggy2").innerHTML = '<img src="froggy2.jpg" />';
+}
+function mouseOut() {
+    document.getElementById("froggy").innerHTML = '<img src="froggy.jpg" />';
+}
+</script>
+
+
+
+
+</body>
+</html>
